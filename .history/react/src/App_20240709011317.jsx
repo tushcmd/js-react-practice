@@ -12,7 +12,6 @@ function App() {
 
   return (
     <>
-      <TodoList />
       <div>
         
         <a href="https://tushdev.co" target="_blank">
@@ -26,7 +25,7 @@ function App() {
         </button>
         <UserList />
         <ExpensiveCalculation />
-        
+        <TodoList />
       </div>
       
     </>

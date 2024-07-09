@@ -4,7 +4,6 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import UserList from './map'
 import ExpensiveCalculation from './hooks'
-import TodoList from './todoList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +11,6 @@ function App() {
 
   return (
     <>
-      <TodoList />
       <div>
         
         <a href="https://tushdev.co" target="_blank">
@@ -26,7 +24,6 @@ function App() {
         </button>
         <UserList />
         <ExpensiveCalculation />
-        
       </div>
       
     </>
