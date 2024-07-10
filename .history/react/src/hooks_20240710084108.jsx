@@ -11,15 +11,8 @@ const ExpensiveCalculation = ( number ) => {
         return () => console.log('Component will unmount');
     }, []);
 
-    const handleClick = () => {
-      console.log('counting');
-      setCount(count + 1);
-      
-    };
+    const handleClick = () => setCount(count + 1);
 
-    // const calculate = useMemo(() => {
-
-    // }, []);
 
 
 

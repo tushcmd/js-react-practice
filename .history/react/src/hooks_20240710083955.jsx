@@ -9,17 +9,10 @@ const ExpensiveCalculation = ( number ) => {
     useEffect(() => {
         console.log('Component mounted or updated')
         return () => console.log('Component will unmount');
-    }, []);
+    }, [count]);
 
-    const handleClick = () => {
-      console.log('counting');
-      setCount(count + 1);
-      
-    };
+    const handleClick = () => setCount(count + 1);
 
-    // const calculate = useMemo(() => {
-
-    // }, []);
 
 
 

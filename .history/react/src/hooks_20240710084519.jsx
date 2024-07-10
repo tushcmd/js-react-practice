@@ -12,14 +12,10 @@ const ExpensiveCalculation = ( number ) => {
     }, []);
 
     const handleClick = () => {
-      console.log('counting');
       setCount(count + 1);
-      
+      console.log('counting');
     };
 
-    // const calculate = useMemo(() => {
-
-    // }, []);
 
 
 

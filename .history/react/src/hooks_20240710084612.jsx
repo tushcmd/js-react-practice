@@ -17,9 +17,6 @@ const ExpensiveCalculation = ( number ) => {
       
     };
 
-    // const calculate = useMemo(() => {
-
-    // }, []);
 
 
 
